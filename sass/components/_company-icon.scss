@@ -1,0 +1,22 @@
+.company-icon-list {
+  list-style: none;
+  display: flex;
+}
+.company-icon-svg {
+  width: 106px;
+  height: 60px;
+}
+.company-item-icon {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+}
+.company-item-icon:not(:last-child) {
+  margin-right: 30px;
+}
+.company-icon-link:hover .company-icon-svg,
+.company-icon-link:focus .company-icon-svg {
+  fill: var(--accent-color);
+}
