@@ -12,10 +12,11 @@
   height: 92px;
   justify-content: center;
   align-items: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.company-item-icon:not(:last-child) {
-  margin-right: 30px;
-}
+
 .company-icon-link:hover .company-icon-svg,
 .company-icon-link:focus .company-icon-svg {
   fill: var(--accent-color);

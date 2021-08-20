@@ -83,10 +83,9 @@ svg.smal-icon {
   display: flex;
   align-items: center;
   padding-left: 15px;
-}
-.container-flex {
   display: flex;
 }
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -455,8 +454,7 @@ svg.smal-icon {
 }
 
 /* company-brand-section*/
-.company-container {
-}
+
 .company-icon-list {
   list-style: none;
   display: flex;
