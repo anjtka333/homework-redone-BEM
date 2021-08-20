@@ -22,13 +22,11 @@ p {
   padding: 0;
 }
 
-.section.no-pudding {
-  padding-bottom: 0;
-}
-
 .list {
   list-style: none;
-  text-decoration: none;
+}
+
+.flex-reset {
   padding: 0;
   margin: 0;
   display: flex;
@@ -38,6 +36,10 @@ p {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+.section.no-pudding {
+  padding-bottom: 0;
 }
 
 .invisible {
