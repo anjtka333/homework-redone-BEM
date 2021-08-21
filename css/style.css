@@ -266,14 +266,14 @@ svg.smal-icon {
 .section-title {
   margin-bottom: 50px;
 }
-.list .team-card-item {
+.list .team-card__item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.list .team-card-item:last-child {
+.list .team-card__item:last-child {
   margin-right: 0;
 }
 .list .studio-card-item:last-child {
