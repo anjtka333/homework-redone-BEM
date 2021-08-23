@@ -365,10 +365,8 @@ svg.smal-icon {
   padding: 32px 30px;
   background-color: var(--secondary-text-color);
 }
-.card-container-center {
-  text-align: center;
-}
-.card-container-border {
+
+.card__container--border {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
