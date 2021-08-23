@@ -82,7 +82,7 @@
   line-height: 1.7;
   color: var(--paragraf-color);
 }
-x` .card li {
+.card li {
   &:first-child h3::before {
     background-image: url(../img/svg/antena.svg);
   }
