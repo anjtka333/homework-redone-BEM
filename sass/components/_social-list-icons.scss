@@ -1,11 +1,7 @@
 .social-list {
   display: flex;
   list-style: none;
-  justify-content: space-between;
   max-height: 44px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .social-list__item {
   width: 44px;
@@ -32,6 +28,9 @@
 }
 .social-list__link:hover {
   background-color: var(--accent-color);
+}
+.social-list__link--footer {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .social-svg {
   width: 20px;

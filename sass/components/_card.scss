@@ -100,16 +100,16 @@
   background-image: url(../img/svg/astronaut.svg);
 }
 
-.card-item {
-  position: relative;
-}
-.team-card__container {
+.card__container {
   box-sizing: border-box;
-  padding: 32px 30px;
+  padding: 20px 24px;
   background-color: var(--secondary-text-color);
-  text-align: center;
 }
 
+.card__container--center {
+  text-align: center;
+  padding: 30px 32px;
+}
 .card-container-border {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -138,7 +138,7 @@
 }
 .card-item-overlay {
   font-size: 18px;
-  line-height: 1.56;
+  line-height: 1.55;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
@@ -148,7 +148,21 @@
   height: 100%;
   color: var(--bg-additional-color);
   padding: 63px 24px;
-  overflow-y: scroll;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  color: var(--primary-text-color);
+}
+.card__p {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--paragraf-color);
 }
