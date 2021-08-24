@@ -216,10 +216,6 @@ body {
   color: var(--primary-text-color);
 }
 
-.item-dark {
-  background-color: var(--bg-additional-color);
-}
-
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -393,6 +389,10 @@ body {
 
 .studio-card__item:last-child {
   margin-right: 0;
+}
+
+.item--dark {
+  background-color: var(--bg-additional-color);
 }
 
 .team-card__item {
