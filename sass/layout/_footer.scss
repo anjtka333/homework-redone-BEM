@@ -32,13 +32,12 @@
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__a:hover {
-  color: var(--accent-color);
-}
-.address__a--dif {
-  color: var(--secondary-text-color);
+  &:hover {
+    color: var(--accent-color);
+  }
+  &--dif {
+    color: var(--secondary-text-color);
+  }
 }
 
 .footer__form {
