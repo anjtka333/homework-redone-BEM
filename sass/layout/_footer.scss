@@ -1,44 +1,30 @@
-footer {
-  background: #2f303a;
-}
-.footer-logo-span {
-  color: var(--secondary-text-color);
-}
-footer .social-list-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-footer .container {
-  align-items: baseline;
-}
-.address {
-  margin-top: 20px;
-  max-width: 230px;
-}
-.footer-social-link-container {
-  margin-left: 70px;
-}
-.address a {
-  display: flex;
-}
 .page-footer {
   background: var(--footer-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.address .list {
-  display: block;
-}
-.address-li-botmargin {
-  margin-bottom: 9px;
-}
-.address-p {
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.7;
-  text-align: left;
+
+.footer-logo__span {
   color: var(--secondary-text-color);
 }
-.address-a {
+
+.container--baseline {
+  align-items: baseline;
+}
+.footer-social-link-container {
+  margin-left: 70px;
+}
+
+.address {
+  margin-top: 20px;
+  max-width: 230px;
+}
+
+.address__li--botmargin {
+  margin-bottom: 9px;
+}
+
+.address__a {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
@@ -48,48 +34,24 @@ footer .container {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-a:hover {
+.address__a:hover {
   color: var(--accent-color);
 }
-.company-icon-link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.address__a--dif {
+  color: var(--secondary-text-color);
 }
 
-.company-icon-link:hover,
-.company-icon-link:focus {
-  border: 1px solid var(--accent-color);
-  cursor: pointer;
-  outline: none;
-}
-.company-icon-svg {
-  fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .company-icon-link:hover & {
-    fill: var(--accent-color);
-  }
-}
-footer .social-svg {
-  fill: var(--secondary-text-color);
-}
-.footer-form {
+.footer__form {
   display: flex;
   flex-wrap: wrap;
   margin-left: 70px;
 }
-.footer-input-wrapper {
+.footer__input-wrapper {
   width: 100%;
   display: flex;
   justify-items: flex-end;
 }
-.footer-email {
-  box-sizing: border-box;
+.footer__email {
   padding: 10px;
   background-color: var(--footer-bg-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -105,7 +67,7 @@ footer .social-svg {
   }
 }
 
-.footer-btn {
+.footer__btn {
   display: inline-flex;
   &::after {
     content: '';
